@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+    /* Neede for when list of countries under search bar becomes very long */
+    overflow-y: hidden; 
+  }
+#map{
+      width: 100vw;
+      height: 100vh;
+  }
+
+table{
+    width:100%;
+}
+.even{
+    background-color: rgb(163, 229, 163);
+}
+.attribute{
+    text-align: left;
+    width: 50%;
+}
+
+.value{
+    text-align: left;
+    width: 50%;
+}
+
+#loading {
+    position:absolute;
+    z-index:10000;
+    left:20%;
+    top:1.5%;
+    /* background-color: green; */
+    width: 3.5%;
+    display:none;
+}
+.images{
+    width:60%;
+    /* aspect-ratio: 4/3; */
+    /* object-fit: contain; */
+}
+#first{
+    width:18%;
+}
+.attribute{
+    width:40%
+}
+
+
+
+
+
+
+
